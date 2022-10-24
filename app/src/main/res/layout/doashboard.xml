@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Doashboard_Hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Hello"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Doashboard_parasyteartx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/parasyteartx"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/Doashboard_outlined_social_notifications"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/LinearLayout"
+        android:background="@drawable/get_start_login_shap"
+        android:backgroundTint="@color/hex6"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="-70dp"
+        app:srcCompat="@drawable/ic_outlined___social___notifications"
+        />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/Doashboard_outlined_action_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LinearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/layout_marginStart2"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="@dimen/layout_marginEnd2"
+        android:background="@drawable/login_shap"
+        android:drawableEnd="@drawable/ic_outlined___action___search"
+        android:drawablePadding="15dp"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:id="@+id/Doashboard_Online_Courses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_below="@id/Doashboard_outlined_action_search"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="49dp"
+        android:text="@string/Online_Courses"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_below="@id/Doashboard_Online_Courses"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        >
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Online Courses</string>
+
+
+    <string name="Education_App">Education App</string>
+    <string name="Education_App2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</string>
+    <string name="get_start">Get Start</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome!</string>
+    <string name="sign_in_to_continue">sign in to continue</string>
+    <string name="username_or_Email">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_Password">Forgot Password?</string>
+    <string name="or_login_with">OR LOGIN WITH</string>
+    <string name="Login_via_Facebook">Login via Facebook</string>
+    <string name="Create_new_Account">Create new Account ?</string>
+    <string name="Signup">Signup</string>
+
+
+    <!--   Signup     -->
+    <string name="Sign_Up">Sign Up</string>
+    <string name="create_new_a_account">create new a account</string>
+    <string name="Full_Name">Full Name</string>
+    <string name="Username_or_Email">Username or Email</string>
+    <string name="Create_Account">Create Account</string>
+    <string name="Do_you_have_an_account">Do you have an account ?</string>
+    <string name="Signin">Signin</string>
+
+    <!--    Doashboard      -->
+    <string name="Hello">Hello,</string>
+    <string name="parasyteartx">parasyteartx</string>
+    <string name="Search">Search…</string>
+    <string name="Online_Courses">Online Courses</string>
+
+
+
+</resources>

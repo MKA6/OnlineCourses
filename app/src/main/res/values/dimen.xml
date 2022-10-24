@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <!--  image -->
+    <dimen name="layout_width" >644dp</dimen>
+    <dimen name="layout_height" >656dp</dimen>
+    <dimen name="image_layout_marginStart">-70dp</dimen>
+    <dimen name="image_layout_marginEnd">-140dp</dimen>
+    <dimen name="image_layout_marginTop">-280dp</dimen>
+
+
+    <!--  Text  View  -->
+    <dimen name="textSize_Education_App">25sp</dimen>
+    <dimen name="textSize_Education_App2">16sp</dimen>
+    <dimen name="layout_marginStart">73dp</dimen>
+    <dimen name="layout_marginEnd">95dp</dimen>
+    <dimen name="layout_marginStart2">35dp</dimen>
+    <dimen name="layout_marginEnd2">35dp</dimen>
+    <dimen name="layout_marginTop">-40dp</dimen>
+
+
+    <!-- Button -->
+    <dimen name="get_start_layout_width" >305dp</dimen>
+    <dimen name="get_start_layout_height" >52dp</dimen>
+    <dimen name="textSize" >16sp</dimen>
+    <dimen name="layout_marginBottom" >5dp</dimen>
+
+<dimen name="Welcome_textsize">20sp</dimen>
+<dimen name="sign_in_to_continue_textsize">14sp</dimen>
+<dimen name="login_textsize">12sp</dimen>
+<dimen name="Welcome_layout_marginEnd">235dp</dimen>
+<dimen name="Welcome_layout_marginTOp">70dp</dimen>
+
+
+</resources>
